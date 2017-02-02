@@ -4,11 +4,13 @@ int main()
 {
 	int kor, eng, math;
 	int sum = 0;
+    int mean;
 
 	math = 80;
 	eng = 100;
 	kor = 90;
 	sum = 80 + 100 + 90;
+    mean = sum/3;
 
 	printf("This program print report card.\n");
 
@@ -16,5 +18,6 @@ int main()
 	printf("English : %d\n", eng);
 	printf("Math : %d\n", math);
 	printf("Sum : %d\n", sum);
+	printf("Average : %d\n", mean);
 	return 0;
 }
